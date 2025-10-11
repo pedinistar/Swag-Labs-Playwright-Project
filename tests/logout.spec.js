@@ -2,7 +2,7 @@ import { test, expect } from './fixtures/test.fixture.js'
 import { addProductsToCart, navigateToCart } from './helpers/cart.helper.js'
 
 // TC13
-test("should logout user and redirect to login authenticatedPage", async ({ authenticatedPage }) => {
+test("should logout user and redirect to login page", async ({ authenticatedPage }) => {
     await addProductsToCart(authenticatedPage, 2)
     await navigateToCart(authenticatedPage)
 
