@@ -1,0 +1,23 @@
+{
+  "name": "swag-labs-playwright-project",
+  "version": "1.0.0",
+  "description": "E-commerce Test Automation (Playwright + JavaScript), automated e-2-e testing for Swag Labs e-commerce website",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedinistar/Swag-Labs-Playwright-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pedinistar/Swag-Labs-Playwright-Project/issues"
+  },
+  "homepage": "https://github.com/pedinistar/Swag-Labs-Playwright-Project#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.7.1"
+  }
+}

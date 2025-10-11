@@ -1,0 +1,41 @@
+# Logs (anywhere in repo)
+**/logs/
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# Playwright output (anywhere in repo)
+**/playwright-report/
+**/blob-report/
+**/test-results/
+**/*.trace
+**/*.zip
+
+# Node modules (anywhere in repo)
+**/node_modules/
+
+# Env files
+**/.env
+**/.env.*
+
+# Coverage reports (anywhere in repo)
+**/coverage/
+**/*.lcov
+**/.nyc_output/
+
+# TypeScript build info
+**/*.tsbuildinfo
+
+# OS files
+**/.DS_Store
+**/Thumbs.db
+
+# Optional npm/yarn caches
+**/.pnp.*
+**/.yarn/*
+!**/.yarn/patches
+!**/.yarn/plugins
+!**/.yarn/releases
+!**/.yarn/sdks
+!**/.yarn/versions
