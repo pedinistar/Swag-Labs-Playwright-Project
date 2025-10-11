@@ -141,5 +141,5 @@ Password: secret_sauce
 ## Author
 
 **Pedini Jayashree**
-- LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/jayashree14/)
+- LinkedIn: [linkedin.com/in/jayashree14/](https://www.linkedin.com/in/jayashree14/)
 - GitHub: [@pedinistar](https://github.com/pedinistar)
