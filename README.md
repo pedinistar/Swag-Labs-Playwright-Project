@@ -2,6 +2,8 @@
 
 E-commerce Test Automation using Playwright + JavaScript for automated end-to-end testing of Swag Labs e-commerce website.
 
+![Playwright Tests](https://github.com/pedinistar/Swag-Labs-Playwright-Project/actions/workflows/playwright.yml/badge.svg)
+
 ## Project Overview
 
 This project demonstrates comprehensive test automation coverage for an e-commerce platform, including user authentication, product browsing, cart management, and checkout processes.
