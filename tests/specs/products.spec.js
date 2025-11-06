@@ -1,5 +1,5 @@
-import { test, expect } from './fixtures/test.fixture.js'
-import { addProductsToCart, navigateToCart } from './helpers/cart.helper.js'
+import { test, expect } from '../fixtures/test.fixture.js'
+import { addProductsToCart, navigateToCart } from '../helpers/cart.helper.js'
 
 // TC05
 test('should display all products after login', async ({ authenticatedPage }) => {

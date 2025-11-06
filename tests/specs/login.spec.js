@@ -1,4 +1,4 @@
-import { test, expect } from './fixtures/test.fixture.js';
+import { test, expect } from '../fixtures/test.fixture.js';
 
 test('should verify authenticatedPage title', async ({ authenticatedPage }) => {
     await authenticatedPage.goto('https://www.saucedemo.com/');

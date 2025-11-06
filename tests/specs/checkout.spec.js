@@ -1,5 +1,5 @@
-import { test, expect } from './fixtures/test.fixture.js'
-import { addProductsToCart, navigateToCart } from './helpers/cart.helper.js'
+import { test, expect } from '../fixtures/test.fixture.js'
+import { addProductsToCart, navigateToCart } from '../helpers/cart.helper.js'
 
 // TC09 & TC10 & TC12
 test("should complete checkout with valid information", async ({ authenticatedPage }) => {

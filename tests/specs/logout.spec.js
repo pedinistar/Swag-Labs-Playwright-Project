@@ -1,5 +1,5 @@
-import { test, expect } from './fixtures/test.fixture.js'
-import { addProductsToCart, navigateToCart } from './helpers/cart.helper.js'
+import { test, expect } from '../fixtures/test.fixture.js'
+import { addProductsToCart, navigateToCart } from '../helpers/cart.helper.js'
 
 // TC13
 test("should logout user and redirect to login page", async ({ authenticatedPage }) => {
