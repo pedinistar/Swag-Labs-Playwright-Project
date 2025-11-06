@@ -50,25 +50,6 @@ This project demonstrates comprehensive test automation coverage for an e-commer
 - **Design Pattern:** Custom Fixtures & Helper Functions
 - **Version Control:** Git & GitHub
 
-## Project Structure
-
-```
-Swag-Labs-Playwright-Project/
-├── tests/
-│   ├── fixtures/
-│   │   └── test.fixture.js      # Custom authenticated page fixture
-│   ├── helpers/
-│   │   └── cart.helper.js       # Cart operation helpers
-│   ├── login.spec.js            # Login test cases
-│   ├── products.spec.js         # Product test cases
-│   ├── cart.spec.js             # Cart test cases
-│   ├── checkout.spec.js         # Checkout test cases
-│   └── logout.spec.js           # Logout test cases
-├── package.json
-├── playwright.config.js
-└── README.md
-```
-
 ## Getting Started
 
 ### Prerequisites
@@ -101,9 +82,6 @@ npx playwright test
 
 # Run tests in headed mode
 npx playwright test --headed
-
-# Run specific test file
-npx playwright test tests/login.spec.js
 
 # Run tests in UI mode
 npx playwright test --ui
